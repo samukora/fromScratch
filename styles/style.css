@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   width: 360px;
   padding: 20px; 
   box-sizing: border-box;
+  margin: auto;
 }
 
 .content-section_theme_dark {
@@ -196,4 +197,16 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .card__text {
   line-height: 21.6px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
 }
